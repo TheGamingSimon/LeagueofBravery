@@ -2,7 +2,6 @@ Add-Content -Path "E:\Schule\Berufsschule\M122\LeagueofBravery\bravery-start.log
 
 $lockfilePath = "E:\Valorant\Riot Games\League of Legends\lockfile"
 $checkIntervalSeconds = 5
-$braveryScript = "E:\Schule\Berufsschule\M122\LeagueofBravery\LeagueOfBravery.ps1"
 $braveryStarted = $false
 
 Add-Type -TypeDefinition @"
