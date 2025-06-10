@@ -8,7 +8,12 @@
 # -------------------------------
 # Champion zufällig auswählen
 # -------------------------------
-$championPath = ".\champion.json"
+$basePath = "E:\Schule\Berufsschule\M122\LeagueofBravery\"
+
+$championPath = "$basePath\champion.json"
+$itemsPath = "$basePath\item.json"
+$runesPath = "$basePath\runes.json"
+
 $championData = Get-Content $championPath -Raw | ConvertFrom-Json
 $championNames = @($championData.data.PSObject.Properties.Name)
 
@@ -22,13 +27,11 @@ $randomChampion = Get-Random -InputObject $championNames
 # -------------------------------
 # Items laden & nach Rolle filtern
 # -------------------------------
-$itemsPath = ".\item.json"
 $itemData = Get-Content $itemsPath -Raw | ConvertFrom-Json
 
 # Definierte Rollen
 $roles = @("Mage", "Fighter", "Tank", "Support Tank", "Support Enchanter", "Marksman", "Assassin")
 $chosenRole = Get-Random -InputObject $roles
-Write-Host "`nRandom Item-Role: $chosenRole" -ForegroundColor Cyan
 
 # Boots: Alle Tier2-Boots mit passender Rolle (nicht auf legendary beschränkt)
 $bootItems = $itemData.PSObject.Properties | Where-Object {
@@ -50,7 +53,6 @@ $randomBoot = if ($bootItems.Count -gt 0) { Get-Random -InputObject $bootItems }
 # -------------------------------
 # Runen laden & generieren
 # -------------------------------
-$runesPath = ".\runes.json"
 $runeData = Get-Content $runesPath -Raw | ConvertFrom-Json
 
 $runePaths = $runeData.PSObject.Properties.Name
