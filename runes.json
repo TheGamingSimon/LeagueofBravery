@@ -1,0 +1,124 @@
+{
+  "Precision": {
+    "keystone": [
+      "Press the Attack",
+      "Lethal Tempo",
+      "Fleet Footwork",
+      "Conqueror"
+    ],
+    "slots": {
+      "slot1": [
+        "Absorb Life",
+        "Triumph",
+        "Presence of Mind"
+      ],
+      "slot2": [
+        "Legend: Alacrity",
+        "Legends: Haste",
+        "Legend: Bloodline"
+      ],
+      "slot3": [
+        "Coup de Grace",
+        "Cut Down",
+        "Last Stand"
+      ]
+    }
+  },
+  "Domination": {
+    "keystone": [
+      "Electrocute",
+      "Predator",
+      "Dark Harvest",
+      "Hail of Blades"
+    ],
+    "slots": {
+      "slot1": [
+        "Cheap Shot",
+        "Taste of Blood",
+        "Sudden Impact"
+      ],
+      "slot2": [
+        "Sixth Sense",
+        "Grisly Mementos",
+        "Deep Ward"
+      ],
+      "slot3": [
+        "Treasure Hunter",
+        "Relentless Hunter",
+        "Ultimate Hunter"
+      ]
+    }
+  },
+  "Sorcery": {
+    "keystone": [
+      "Summon Aery",
+      "Arcane Comet",
+      "Phase Rush"
+    ],
+    "slots": {
+      "slot1": [
+        "Axiom Arcanist",
+        "Manaflow Band",
+        "Nimbus Cloak"
+      ],
+      "slot2": [
+        "Transcendence",
+        "Celerity",
+        "Absolute Focus"
+      ],
+      "slot3": [
+        "Scorch",
+        "Waterwalking",
+        "Gathering Storm"
+      ]
+    }
+  },
+  "Resolve": {
+    "keystone": [
+      "Grasp of the Undying",
+      "Aftershock",
+      "Guardian"
+    ],
+    "slots": {
+      "slot1": [
+        "Demolish",
+        "Font of Life",
+        "Shield Bash"
+      ],
+      "slot2": [
+        "Conditioning",
+        "Second Wind",
+        "Bone Plating"
+      ],
+      "slot3": [
+        "Overgrowth",
+        "Revitalize",
+        "Unflinching"
+      ]
+    }
+  },
+  "Inspiration": {
+    "keystone": [
+      "Glacial Augment",
+      "Unsealed Spellbook",
+      "First Strike"
+    ],
+    "slots": {
+      "slot1": [
+        "Hextech Flashtraption",
+        "Magical Footwear",
+        "Cash Back"
+      ],
+      "slot2": [
+        "Triple Tonic",
+        "Time Warp Tonic",
+        "Biscuit Delivery"
+      ],
+      "slot3": [
+        "Cosmic Insight",
+        "Approach Velocity",
+        "Jack of All Trades"
+      ]
+    }
+  }
+}

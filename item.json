@@ -712,7 +712,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
       "Support Enchanter"
     ]
   },
@@ -842,10 +841,8 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
       "Fighter",
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "2502": {
@@ -859,9 +856,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Tank"
     ]
   },
   "2503": {
@@ -874,8 +869,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "2504": {
@@ -887,8 +881,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "2508": {
@@ -911,7 +904,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Tank",
       "Support Tank"
     ]
   },
@@ -924,8 +916,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "3004": {
@@ -939,39 +930,43 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
       "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Assassin"
     ]
   },
   "3006": {
     "name": "Berserker's Greaves",
     "tags": [
       "AttackSpeed",
-      "Boots"
+      "Tier2_Boots"
     ],
     "legendary": false,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3009": {
     "name": "Boots of Swiftness",
     "tags": [
-      "Boots"
+      "Tier2_Boots"
     ],
     "legendary": false,
-    "roleTags": []
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter",
+      "Support Tank"
+    ]
   },
   "3010": {
     "name": "Symbiotic Soles",
     "tags": [
-      "Boots"
+      "Tier2_Boots"
     ],
     "legendary": false,
-    "roleTags": []
+    "roleTags": [
+      "Assassin"
+    ]
   },
   "3011": {
     "name": "Chemtech Putrifier",
@@ -982,7 +977,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
       "Support Enchanter"
     ]
   },
@@ -997,11 +991,13 @@
   "3020": {
     "name": "Sorcerer's Shoes",
     "tags": [
-      "Boots",
+      "Tier2_Boots",
       "MagicPenetration"
     ],
     "legendary": false,
-    "roleTags": []
+    "roleTags": [
+      "Mage"
+    ]
   },
   "3024": {
     "name": "Glacial Buckler",
@@ -1028,9 +1024,8 @@
     "legendary": true,
     "roleTags": [
       "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Tank"
+      "Assassin",
+      "Fighter"
     ]
   },
   "3031": {
@@ -1054,8 +1049,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3033": {
@@ -1067,8 +1061,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3035": {
@@ -1092,8 +1085,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3040": {
@@ -1165,20 +1157,20 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3047": {
     "name": "Plated Steelcaps",
     "tags": [
       "Armor",
-      "Boots"
+      "Tier2_Boots"
     ],
     "legendary": false,
     "roleTags": [
       "Tank",
-      "Support Tank"
+      "Support Tank",
+      "Fighter"
     ]
   },
   "3050": {
@@ -1216,10 +1208,8 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
       "Fighter",
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "3057": {
@@ -1283,8 +1273,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "3070": {
@@ -1314,9 +1303,7 @@
     "roleTags": [
       "Marksman",
       "Fighter",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Assassin"
     ]
   },
   "3072": {
@@ -1327,8 +1314,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3073": {
@@ -1344,10 +1330,7 @@
     "legendary": true,
     "roleTags": [
       "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Fighter"
     ]
   },
   "3074": {
@@ -1363,7 +1346,7 @@
     "roleTags": [
       "Marksman",
       "Fighter",
-      "Support Enchanter"
+      "Assassin"
     ]
   },
   "3075": {
@@ -1415,10 +1398,7 @@
     "legendary": true,
     "roleTags": [
       "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Fighter"
     ]
   },
   "3082": {
@@ -1466,8 +1446,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3086": {
@@ -1493,8 +1472,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3089": {
@@ -1519,9 +1497,7 @@
     "legendary": true,
     "roleTags": [
       "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Tank"
+      "Fighter"
     ]
   },
   "3094": {
@@ -1533,8 +1509,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3100": {
@@ -1547,8 +1522,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "3102": {
@@ -1559,10 +1533,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "3105": {
@@ -1590,8 +1561,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
       "Support Enchanter",
       "Support Tank"
     ]
@@ -1623,7 +1592,6 @@
     "legendary": true,
     "roleTags": [
       "Tank",
-      "Support Enchanter",
       "Support Tank"
     ]
   },
@@ -1638,23 +1606,22 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
       "Tank",
-      "Support Enchanter",
       "Support Tank"
     ]
   },
   "3111": {
     "name": "Mercury's Treads",
     "tags": [
-      "Boots",
+      "Tier2_Boots",
       "SpellBlock",
       "Tenacity"
     ],
     "legendary": false,
     "roleTags": [
       "Tank",
-      "Support Tank"
+      "Support Tank",
+      "Fighter"
     ]
   },
   "3113": {
@@ -1690,10 +1657,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "3116": {
@@ -1705,19 +1669,8 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
-  },
-  "3117": {
-    "name": "Mobility Boots",
-    "tags": [
-      "Boots"
-    ],
-    "legendary": false,
-    "roleTags": []
   },
   "3118": {
     "name": "Malignance",
@@ -1741,9 +1694,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "3121": {
@@ -1781,10 +1732,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Marksman"
     ]
   },
   "3133": {
@@ -1821,8 +1769,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "3137": {
@@ -1834,8 +1781,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "3139": {
@@ -1851,9 +1797,7 @@
     "legendary": true,
     "roleTags": [
       "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Tank"
+      "Fighter"
     ]
   },
   "3140": {
@@ -1879,7 +1823,7 @@
     "legendary": true,
     "roleTags": [
       "Marksman",
-      "Fighter"
+      "Assassin"
     ]
   },
   "3143": {
@@ -1944,10 +1888,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "3153": {
@@ -1992,8 +1933,7 @@
     "roleTags": [
       "Marksman",
       "Fighter",
-      "Tank",
-      "Support Tank"
+      "Assassin"
     ]
   },
   "3157": {
@@ -2005,21 +1945,20 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "3158": {
     "name": "Ionian Boots of Lucidity",
     "tags": [
-      "Boots",
+      "Tier2_Boots",
       "CooldownReduction"
     ],
     "legendary": false,
     "roleTags": [
-      "Support Enchanter"
+      "Support Enchanter",
+      "Assassin",
+      "Mage"
     ]
   },
   "3161": {
@@ -2031,10 +1970,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Tank"
+      "Fighter"
     ]
   },
   "3165": {
@@ -2047,10 +1983,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "3170": {
@@ -2138,9 +2071,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Assassin"
     ]
   },
   "3181": {
@@ -2152,10 +2083,8 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
       "Fighter",
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "3190": {
@@ -2171,7 +2100,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Tank",
       "Support Tank"
     ]
   },
@@ -2188,22 +2116,6 @@
       "Support Tank"
     ]
   },
-  "322065": {
-    "name": "Shurelya's Battlesong",
-    "tags": [
-      "SpellDamage",
-      "ManaRegen",
-      "Active",
-      "CooldownReduction",
-      "NonbootsMovement",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Support Enchanter"
-    ]
-  },
   "3222": {
     "name": "Mikael's Blessing",
     "tags": [
@@ -2216,53 +2128,8 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
       "Support Enchanter",
       "Support Tank"
-    ]
-  },
-  "323002": {
-    "name": "Trailblazer",
-    "tags": [
-      "Health",
-      "Armor",
-      "NonbootsMovement"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Tank",
-      "Support Tank"
-    ]
-  },
-  "323003": {
-    "name": "Archangel's Staff",
-    "tags": [
-      "SpellDamage",
-      "Mana",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Support Enchanter"
-    ]
-  },
-  "323004": {
-    "name": "Manamune",
-    "tags": [
-      "Damage",
-      "Mana",
-      "CooldownReduction",
-      "OnHit",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
     ]
   },
   "323040": {
@@ -2295,20 +2162,6 @@
       "Support Enchanter"
     ]
   },
-  "323050": {
-    "name": "Zeke's Convergence",
-    "tags": [
-      "Health",
-      "SpellBlock",
-      "Armor",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Tank",
-      "Support Tank"
-    ]
-  },
   "323070": {
     "name": "Tear of the Goddess",
     "tags": [
@@ -2319,83 +2172,6 @@
     "roleTags": [
       "Mage",
       "Support Enchanter"
-    ]
-  },
-  "323075": {
-    "name": "Thornmail",
-    "tags": [
-      "Health",
-      "Armor"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Tank",
-      "Support Tank"
-    ]
-  },
-  "323107": {
-    "name": "Redemption",
-    "tags": [
-      "Health",
-      "ManaRegen",
-      "CooldownReduction",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "323109": {
-    "name": "Knight's Vow",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "Armor",
-      "Aura",
-      "Active",
-      "CooldownReduction",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "323110": {
-    "name": "Frozen Heart",
-    "tags": [
-      "Armor",
-      "Mana",
-      "Aura",
-      "CooldownReduction",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "323119": {
-    "name": "Winter's Approach",
-    "tags": [
-      "Health",
-      "Mana",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Tank"
     ]
   },
   "323121": {
@@ -2412,41 +2188,6 @@
       "Support Tank"
     ]
   },
-  "323190": {
-    "name": "Locket of the Iron Solari",
-    "tags": [
-      "Health",
-      "SpellBlock",
-      "Armor",
-      "Aura",
-      "Active",
-      "MagicResist",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Tank",
-      "Support Tank"
-    ]
-  },
-  "323222": {
-    "name": "Mikael's Blessing",
-    "tags": [
-      "Health",
-      "ManaRegen",
-      "Active",
-      "CooldownReduction",
-      "Tenacity",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
   "323504": {
     "name": "Ardent Censer",
     "tags": [
@@ -2457,9 +2198,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Marksman",
-      "Fighter",
       "Support Enchanter"
     ]
   },
@@ -2473,7 +2211,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
       "Support Enchanter"
     ]
   },
@@ -2487,7 +2224,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
       "Support Enchanter"
     ]
   },
@@ -2502,10 +2238,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Support Enchanter"
     ]
   },
   "326620": {
@@ -2519,10 +2252,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Support Enchanter"
     ]
   },
   "326621": {
@@ -2533,7 +2263,6 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
       "Support Enchanter"
     ]
   },
@@ -2548,10 +2277,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "328020": {
@@ -2566,7 +2292,6 @@
     "legendary": true,
     "roleTags": [
       "Tank",
-      "Support Enchanter",
       "Support Tank"
     ]
   },
@@ -2581,8 +2306,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "3330": {
@@ -2638,22 +2362,6 @@
     "legendary": false,
     "roleTags": []
   },
-  "3504": {
-    "name": "Ardent Censer",
-    "tags": [
-      "AttackSpeed",
-      "SpellDamage",
-      "ManaRegen",
-      "NonbootsMovement"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
-    ]
-  },
   "3508": {
     "name": "Essence Reaver",
     "tags": [
@@ -2666,10 +2374,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Marksman"
     ]
   },
   "3599": {
@@ -2712,10 +2417,8 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
       "Fighter",
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "3801": {
@@ -2771,9 +2474,7 @@
     "legendary": true,
     "roleTags": [
       "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Tank"
+      "Assassin"
     ]
   },
   "3865": {
@@ -2942,20 +2643,6 @@
       "Support Enchanter"
     ]
   },
-  "4005": {
-    "name": "Imperial Mandate",
-    "tags": [
-      "SpellDamage",
-      "ManaRegen",
-      "CooldownReduction",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Support Enchanter"
-    ]
-  },
   "4401": {
     "name": "Force of Nature",
     "tags": [
@@ -2977,8 +2664,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "4629": {
@@ -2991,10 +2677,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "4630": {
@@ -3033,10 +2716,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "4635": {
@@ -3047,37 +2727,6 @@
       "SpellVamp"
     ],
     "legendary": false,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "4636": {
-    "name": "Night Harvester",
-    "tags": [
-      "Health",
-      "SpellDamage",
-      "CooldownReduction",
-      "NonbootsMovement",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "4637": {
-    "name": "Demonic Embrace",
-    "tags": [
-      "Health",
-      "SpellDamage"
-    ],
-    "legendary": true,
     "roleTags": [
       "Mage",
       "Tank",
@@ -3098,7 +2747,6 @@
     ],
     "legendary": false,
     "roleTags": [
-      "Tank",
       "Support Enchanter",
       "Support Tank"
     ]
@@ -3165,8 +2813,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "4646": {
@@ -3179,8 +2826,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Mage"
     ]
   },
   "6333": {
@@ -3192,10 +2838,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Tank"
+      "Fighter"
     ]
   },
   "6609": {
@@ -3208,11 +2851,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Fighter"
     ]
   },
   "6610": {
@@ -3225,71 +2864,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "6616": {
-    "name": "Staff of Flowing Water",
-    "tags": [
-      "SpellDamage",
-      "ManaRegen",
-      "CooldownReduction",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Support Enchanter"
-    ]
-  },
-  "6617": {
-    "name": "Moonstone Renewer",
-    "tags": [
-      "Health",
-      "SpellDamage",
-      "ManaRegen",
-      "CooldownReduction",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "6620": {
-    "name": "Echoes of Helia",
-    "tags": [
-      "Health",
-      "SpellDamage",
-      "ManaRegen",
-      "CooldownReduction",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "6621": {
-    "name": "Dawncore",
-    "tags": [
-      "SpellDamage",
-      "ManaRegen"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Support Enchanter"
+      "Fighter"
     ]
   },
   "6631": {
@@ -3302,10 +2877,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Tank",
-      "Support Tank"
+      "Fighter"
     ]
   },
   "6653": {
@@ -3316,10 +2888,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "6655": {
@@ -3332,25 +2901,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Support Enchanter"
-    ]
-  },
-  "6657": {
-    "name": "Rod of Ages",
-    "tags": [
-      "Health",
-      "HealthRegen",
-      "SpellDamage",
-      "Mana",
-      "ManaRegen"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   },
   "6660": {
@@ -3377,9 +2928,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Tank"
     ]
   },
   "6664": {
@@ -3394,8 +2943,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "6665": {
@@ -3408,8 +2956,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Tank",
-      "Support Tank"
+      "Tank"
     ]
   },
   "6670": {
@@ -3434,8 +2981,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "6673": {
@@ -3446,8 +2992,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "6675": {
@@ -3459,8 +3004,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Marksman"
     ]
   },
   "6676": {
@@ -3473,7 +3017,7 @@
     "legendary": true,
     "roleTags": [
       "Marksman",
-      "Fighter"
+      "Assassin"
     ]
   },
   "6690": {
@@ -3497,24 +3041,8 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
       "Fighter",
-      "Support Enchanter"
-    ]
-  },
-  "6693": {
-    "name": "Prowler's Claw",
-    "tags": [
-      "Damage",
-      "CooldownReduction",
-      "ArmorPenetration",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Assassin"
     ]
   },
   "6694": {
@@ -3527,9 +3055,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Assassin"
     ]
   },
   "6695": {
@@ -3540,8 +3066,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Assassin"
     ]
   },
   "6696": {
@@ -3553,8 +3078,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Assassin"
     ]
   },
   "6697": {
@@ -3568,9 +3092,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Assassin"
     ]
   },
   "6698": {
@@ -3584,9 +3106,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Assassin"
     ]
   },
   "6699": {
@@ -3600,9 +3120,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter",
-      "Support Enchanter"
+      "Assassin"
     ]
   },
   "6701": {
@@ -3615,8 +3133,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Marksman",
-      "Fighter"
+      "Assassin"
     ]
   },
   "7050": {
@@ -3636,7 +3153,6 @@
     "legendary": true,
     "roleTags": [
       "Tank",
-      "Support Enchanter",
       "Support Tank"
     ]
   },
@@ -3650,26 +3166,7 @@
     ],
     "legendary": true,
     "roleTags": [
-      "Mage",
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
-    ]
-  },
-  "8020": {
-    "name": "Abyssal Mask",
-    "tags": [
-      "Health",
-      "SpellBlock",
-      "CooldownReduction",
-      "MagicResist",
-      "AbilityHaste"
-    ],
-    "legendary": true,
-    "roleTags": [
-      "Tank",
-      "Support Enchanter",
-      "Support Tank"
+      "Mage"
     ]
   }
 }

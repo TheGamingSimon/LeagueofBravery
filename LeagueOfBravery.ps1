@@ -3,130 +3,101 @@
 # Author: Simon Pichler
 # --------------------------------------
 
-# TLS aktivieren für HTTPS-Zugriff
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-# Aktuelle DDragon-Version
-$ddVersion = "15.11.1"
-
-# --------------------------------------
-# Champion-Daten abrufen
-# --------------------------------------
-
-$championsUrl = "https://ddragon.leagueoflegends.com/cdn/$ddVersion/data/en_US/champion.json"
-$championJson = Invoke-RestMethod -Uri $championsUrl
-
-# Championnamen extrahieren
-$championNames = @($championJson.data.PSObject.Properties.Name)
+# -------------------------------
+# Champion zufällig auswählen
+# -------------------------------
+$championPath = ".\champion.json"
+$championData = Get-Content $championPath -Raw | ConvertFrom-Json
+$championNames = @($championData.data.PSObject.Properties.Name)
 
 if ($championNames.Count -eq 0) {
-    Write-Error "Error: No Champions loaded."
+    Write-Error "Keine Champions geladen!"
     exit
-} else {
-    Write-Host "`n$($championNames.Count) Champions loaded."
 }
 
-# Zufälliger Champion
 $randomChampion = Get-Random -InputObject $championNames
-Write-Host "Random Champion: $randomChampion" -ForegroundColor Yellow
 
-# --------------------------------------
-# Items abrufen
-# --------------------------------------
+# -------------------------------
+# Items laden & nach Rolle filtern
+# -------------------------------
+$itemsPath = ".\item.json"
+$itemData = Get-Content $itemsPath -Raw | ConvertFrom-Json
 
-$itemsUrl = "https://ddragon.leagueoflegends.com/cdn/$ddVersion/data/en_US/item.json"
-$itemJson = Invoke-RestMethod -Uri $itemsUrl
+# Definierte Rollen
+$roles = @("Mage", "Fighter", "Tank", "Support Tank", "Support Enchanter", "Marksman", "Assassin")
+$chosenRole = Get-Random -InputObject $roles
+Write-Host "`nRandom Item-Role: $chosenRole" -ForegroundColor Cyan
 
-# Zugriff auf alle Items
-$itemList = @($itemJson.data.PSObject.Properties)
-
-# Debug: Beispielhafte Items anzeigen
-Write-Host "`nBeispielhafte Items:"
-$itemList | Select-Object -First 5 | ForEach-Object {
-    Write-Host "- $($_.Value.name) [Tags: $($_.Value.tags -join ', ')]"
+# Boots: Alle Tier2-Boots mit passender Rolle (nicht auf legendary beschränkt)
+$bootItems = $itemData.PSObject.Properties | Where-Object {
+    $_.Value.tags -contains "Tier2_Boots" -and
+    $_.Value.roleTags -contains $chosenRole
 }
 
-# Robuster Item-Filter (inkl. Map-Fallback)
-$allItems = $itemList | Where-Object {
-    $_.Value.gold.purchasable -eq $true -and
-    $_.Value.name -ne "" -and
-    $_.Value.plaintext -ne "" -and
-    $_.Value.gold.purchasable -eq $true -and
-    $_.Value.name -ne "" -and
-    $_.Value.plaintext -ne ""
+# Legendary Items ohne Boots
+$usableItems = $itemData.PSObject.Properties | Where-Object {
+    $_.Value.legendary -eq $true -and
+    $_.Value.roleTags -contains $chosenRole -and
+    ($_.Value.tags -notcontains "Tier2_Boots")
 }
 
+# 5 zufällige Legendary Items + 1 Boot (falls vorhanden)
+$randomItems = $usableItems | Get-Random -Count ([Math]::Min(5, $usableItems.Count))
+$randomBoot = if ($bootItems.Count -gt 0) { Get-Random -InputObject $bootItems } else { $null }
 
-# Boots-Filter (nur echte Boots, kein Grunditem "Boots")
-$bootItems = $allItems | Where-Object {
-    $_.Value.tags -contains "Boots" -and $_.Value.name -ne "Boots"
+# -------------------------------
+# Runen laden & generieren
+# -------------------------------
+$runesPath = ".\runes.json"
+$runeData = Get-Content $runesPath -Raw | ConvertFrom-Json
+
+$runePaths = $runeData.PSObject.Properties.Name
+$primaryPath = Get-Random -InputObject $runePaths
+$secondaryPath = Get-Random -InputObject ($runePaths | Where-Object { $_ -ne $primaryPath })
+
+$primary = $runeData.$primaryPath
+$secondary = $runeData.$secondaryPath
+
+$runeSet = @{
+    "Primary" = @{
+        "Path"     = $primaryPath
+        "Keystone" = Get-Random -InputObject $primary.keystone
+        "Slot1"    = Get-Random -InputObject $primary.slots.slot1
+        "Slot2"    = Get-Random -InputObject $primary.slots.slot2
+        "Slot3"    = Get-Random -InputObject $primary.slots.slot3
+    }
+    "Secondary" = @{
+        "Path"  = $secondaryPath
+        "Slot1" = Get-Random -InputObject $secondary.slots.slot1
+        "Slot2" = Get-Random -InputObject $secondary.slots.slot2
+    }
 }
 
-# Debug-Ausgabe Boots
-Write-Host "`nGefundene Boots: $($bootItems.Count)"
-$bootItems | ForEach-Object { Write-Host "- $($_.Value.name)" }
-
-# Usable Items (keine Boots, Jungle, Support, Trinket)
-$usableItems = $allItems | Where-Object {
-    ($_.Value.tags -notcontains "Boots") -and
-    ($_.Value.description -notmatch "Jungle|support|starter|trinket")
-}
-
-# Item-Auswahl
-$randomItems = $usableItems | Get-Random -Count 5
-
-# Boots-Auswahl
-if ($bootItems.Count -gt 0) {
-    $randomBoot = Get-Random -InputObject $bootItems
-} else {
-    Write-Warning "Keine Boots gefunden!"
-    $randomBoot = $null
-}
-
-# --------------------------------------
+# -------------------------------
 # Ausgabe
-# --------------------------------------
-
-Write-Host "`n--- Tag-basierte Item-Kategorien (Test) ---" -ForegroundColor Cyan
-
-# AP-Items
-$apItems = $usableItems | Where-Object {
-    $_.Value.tags -contains "SpellDamage"
-}
-Write-Host "AP-Items gefunden: $($apItems.Count)"
-
-# AD-Items
-$adItems = $usableItems | Where-Object {
-    $_.Value.tags -contains "AttackDamage"
-}
-Write-Host "AD-Items gefunden: $($adItems.Count)"
-
-# Tank-Items
-$tankItems = $usableItems | Where-Object {
-    $_.Value.tags -contains "Health" -or $_.Value.tags -contains "Armor" -or $_.Value.tags -contains "SpellBlock"
-}
-Write-Host "Tank-Items gefunden: $($tankItems.Count)"
-
-# Crit-Items
-$critItems = $usableItems | Where-Object {
-    $_.Value.tags -contains "CriticalStrike"
-}
-Write-Host "Crit-Items gefunden: $($critItems.Count)"
-
-# Support-Items
-$supportItems = $usableItems | Where-Object {
-    $_.Value.tags -contains "Active" -or $_.Value.tags -contains "Aura"
-}
-Write-Host "Support-Items gefunden: $($supportItems.Count)"
-
-
+# -------------------------------
 Write-Host "`n--- Ultimate Bravery Build ---" -ForegroundColor Cyan
 Write-Host "Champion: $randomChampion" -ForegroundColor Yellow
-Write-Host "`nItems:" -ForegroundColor Green
+
+Write-Host "`nItems (Role: $chosenRole):" -ForegroundColor Green
 $randomItems | ForEach-Object { Write-Host "- $($_.Value.name)" }
 
+Write-Host "`nBoots:" -ForegroundColor Green
 if ($randomBoot) {
-    Write-Host "`nBoots: $($randomBoot.Value.name)" -ForegroundColor Green
+    Write-Host "- $($randomBoot.Value.name)"
 } else {
-    Write-Host "`nBoots: [Keine gefunden]" -ForegroundColor Red
+    Write-Host "- [Not Found]" -ForegroundColor Red
 }
+
+Write-Host "`nRunes:" -ForegroundColor Magenta
+Write-Host "Primary Path: $($runeSet.Primary.Path)"
+Write-Host "- Keystone: $($runeSet.Primary.Keystone)"
+Write-Host "- Slot1: $($runeSet.Primary.Slot1)"
+Write-Host "- Slot2: $($runeSet.Primary.Slot2)"
+Write-Host "- Slot3: $($runeSet.Primary.Slot3)"
+
+Write-Host "Secondary Path: $($runeSet.Secondary.Path)"
+Write-Host "- Slot1: $($runeSet.Secondary.Slot1)"
+Write-Host "- Slot2: $($runeSet.Secondary.Slot2)"
