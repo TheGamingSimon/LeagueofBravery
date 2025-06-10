@@ -1,0 +1,3675 @@
+{
+  "1001": {
+    "name": "Boots",
+    "tags": [
+      "Boots"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1004": {
+    "name": "Faerie Charm",
+    "tags": [
+      "ManaRegen"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1006": {
+    "name": "Rejuvenation Bead",
+    "tags": [
+      "HealthRegen"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1011": {
+    "name": "Giant's Belt",
+    "tags": [
+      "Health"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1018": {
+    "name": "Cloak of Agility",
+    "tags": [
+      "CriticalStrike"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman"
+    ]
+  },
+  "1026": {
+    "name": "Blasting Wand",
+    "tags": [
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1027": {
+    "name": "Sapphire Crystal",
+    "tags": [
+      "Mana"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage"
+    ]
+  },
+  "1028": {
+    "name": "Ruby Crystal",
+    "tags": [
+      "Health"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1029": {
+    "name": "Cloth Armor",
+    "tags": [
+      "Armor"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1031": {
+    "name": "Chain Vest",
+    "tags": [
+      "Armor"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1033": {
+    "name": "Null-Magic Mantle",
+    "tags": [
+      "SpellBlock"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1036": {
+    "name": "Long Sword",
+    "tags": [
+      "Damage",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "1037": {
+    "name": "Pickaxe",
+    "tags": [
+      "Damage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "1038": {
+    "name": "B. F. Sword",
+    "tags": [
+      "Damage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "1042": {
+    "name": "Dagger",
+    "tags": [
+      "AttackSpeed"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "1043": {
+    "name": "Recurve Bow",
+    "tags": [
+      "AttackSpeed",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "1052": {
+    "name": "Amplifying Tome",
+    "tags": [
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1053": {
+    "name": "Vampiric Scepter",
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "1054": {
+    "name": "Doran's Shield",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1055": {
+    "name": "Doran's Blade",
+    "tags": [
+      "Health",
+      "Damage",
+      "SpellVamp",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1056": {
+    "name": "Doran's Ring",
+    "tags": [
+      "Health",
+      "Lane",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1057": {
+    "name": "Negatron Cloak",
+    "tags": [
+      "SpellBlock"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1058": {
+    "name": "Needlessly Large Rod",
+    "tags": [
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1082": {
+    "name": "Dark Seal",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1083": {
+    "name": "Cull",
+    "tags": [
+      "Damage",
+      "OnHit",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "1101": {
+    "name": "Scorchclaw Pup",
+    "tags": [
+      "Jungle"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1102": {
+    "name": "Gustwalker Hatchling",
+    "tags": [
+      "Jungle"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1103": {
+    "name": "Mosstomper Seedling",
+    "tags": [
+      "Jungle"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1105": {
+    "name": "Mosstomper Seedling",
+    "tags": [
+      "Jungle"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1106": {
+    "name": "Gustwalker Hatchling",
+    "tags": [
+      "Jungle"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1107": {
+    "name": "Scorchclaw Pup",
+    "tags": [
+      "Jungle"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1500": {
+    "name": "Penetrating Bullets",
+    "tags": [
+      "HealthRegen",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1501": {
+    "name": "Fortification",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1502": {
+    "name": "Reinforced Armor",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1503": {
+    "name": "Warden's Eye",
+    "tags": [
+      "HealthRegen",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1506": {
+    "name": "Reinforced Armor",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1507": {
+    "name": "Overcharged",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1508": {
+    "name": "Anti-tower Socks",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1509": {
+    "name": "Gusto",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1510": {
+    "name": "Phreakish Gusto",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1511": {
+    "name": "Super Mech Armor",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1512": {
+    "name": "Super Mech Power Field",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1515": {
+    "name": "Turret Plating",
+    "tags": [
+      "Armor"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "1516": {
+    "name": "Structure Bounty",
+    "tags": [
+      "HealthRegen",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1517": {
+    "name": "Structure Bounty",
+    "tags": [
+      "HealthRegen",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1518": {
+    "name": "Structure Bounty",
+    "tags": [
+      "HealthRegen",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1519": {
+    "name": "Structure Bounty",
+    "tags": [
+      "HealthRegen",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "1520": {
+    "name": "OvererchargedHA",
+    "tags": [
+      "Armor",
+      "ManaRegen",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "1521": {
+    "name": "Fortification",
+    "tags": [
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "1522": {
+    "name": "Tower Power-Up",
+    "tags": [
+      "Armor",
+      "Damage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "2003": {
+    "name": "Health Potion",
+    "tags": [
+      "HealthRegen",
+      "Consumable",
+      "Lane",
+      "Jungle"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2010": {
+    "name": "Total Biscuit of Everlasting Will",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2019": {
+    "name": "Steel Sigil",
+    "tags": [
+      "Armor",
+      "Damage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "2020": {
+    "name": "The Brutalizer",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "2021": {
+    "name": "Tunneler",
+    "tags": [
+      "Health",
+      "Damage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "2022": {
+    "name": "Glowing Mote",
+    "tags": [
+      "CooldownReduction"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Support Enchanter"
+    ]
+  },
+  "2031": {
+    "name": "Refillable Potion",
+    "tags": [
+      "HealthRegen",
+      "Consumable",
+      "Active",
+      "Lane",
+      "Jungle"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2033": {
+    "name": "Corrupting Potion",
+    "tags": [
+      "Active",
+      "Consumable",
+      "HealthRegen",
+      "Lane",
+      "ManaRegen"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "2052": {
+    "name": "Poro-Snax",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2055": {
+    "name": "Control Ward",
+    "tags": [
+      "Consumable",
+      "Lane",
+      "Stealth",
+      "Vision"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2065": {
+    "name": "Shurelya's Battlesong",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "2138": {
+    "name": "Elixir of Iron",
+    "tags": [
+      "Health",
+      "Consumable",
+      "NonbootsMovement",
+      "Tenacity"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "2139": {
+    "name": "Elixir of Sorcery",
+    "tags": [
+      "Consumable",
+      "ManaRegen",
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "2140": {
+    "name": "Elixir of Wrath",
+    "tags": [
+      "Consumable",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "2141": {
+    "name": "Cappa Juice",
+    "tags": [
+      "Damage",
+      "Consumable"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "2150": {
+    "name": "Elixir of Skill",
+    "tags": [
+      "Consumable"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2151": {
+    "name": "Elixir of Avarice",
+    "tags": [
+      "Health",
+      "Consumable",
+      "Tenacity"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "2152": {
+    "name": "Elixir of Force",
+    "tags": [
+      "Consumable",
+      "Tenacity"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2403": {
+    "name": "Minion Dematerializer",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2420": {
+    "name": "Seeker's Armguard",
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "2421": {
+    "name": "Shattered Armguard",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2422": {
+    "name": "Slightly Magical Footwear",
+    "tags": [
+      "Boots"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "2501": {
+    "name": "Overlord's Bloodmail",
+    "tags": [
+      "Health",
+      "Damage"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "2502": {
+    "name": "Unending Despair",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "2503": {
+    "name": "Blackfire Torch",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "2504": {
+    "name": "Kaenic Rookern",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "2508": {
+    "name": "Fated Ashes",
+    "tags": [
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3002": {
+    "name": "Trailblazer",
+    "tags": [
+      "Health",
+      "Armor",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3003": {
+    "name": "Archangel's Staff",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3004": {
+    "name": "Manamune",
+    "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3006": {
+    "name": "Berserker's Greaves",
+    "tags": [
+      "AttackSpeed",
+      "Boots"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3009": {
+    "name": "Boots of Swiftness",
+    "tags": [
+      "Boots"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3010": {
+    "name": "Symbiotic Soles",
+    "tags": [
+      "Boots"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3011": {
+    "name": "Chemtech Putrifier",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3013": {
+    "name": "Synchronized Souls",
+    "tags": [
+      "Boots"
+    ],
+    "legendary": true,
+    "roleTags": []
+  },
+  "3020": {
+    "name": "Sorcerer's Shoes",
+    "tags": [
+      "Boots",
+      "MagicPenetration"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3024": {
+    "name": "Glacial Buckler",
+    "tags": [
+      "Armor",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3026": {
+    "name": "Guardian Angel",
+    "tags": [
+      "Armor",
+      "Damage"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3031": {
+    "name": "Infinity Edge",
+    "tags": [
+      "CriticalStrike",
+      "Damage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3032": {
+    "name": "Yun Tal Wildarrows",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "AttackSpeed"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3033": {
+    "name": "Mortal Reminder",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3035": {
+    "name": "Last Whisper",
+    "tags": [
+      "ArmorPenetration",
+      "Damage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3036": {
+    "name": "Lord Dominik's Regards",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3040": {
+    "name": "Seraph's Embrace",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3041": {
+    "name": "Mejai's Soulstealer",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3042": {
+    "name": "Muramana",
+    "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "ArmorPenetration"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3044": {
+    "name": "Phage",
+    "tags": [
+      "Health",
+      "Damage",
+      "NonbootsMovement"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3046": {
+    "name": "Phantom Dancer",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3047": {
+    "name": "Plated Steelcaps",
+    "tags": [
+      "Armor",
+      "Boots"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3050": {
+    "name": "Zeke's Convergence",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3051": {
+    "name": "Hearthbound Axe",
+    "tags": [
+      "Damage",
+      "AttackSpeed"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3053": {
+    "name": "Sterak's Gage",
+    "tags": [
+      "Health",
+      "Damage",
+      "Tenacity"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3057": {
+    "name": "Sheen",
+    "tags": [
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3065": {
+    "name": "Spirit Visage",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3066": {
+    "name": "Winged Moonplate",
+    "tags": [
+      "Health",
+      "NonbootsMovement"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3067": {
+    "name": "Kindlegem",
+    "tags": [
+      "Health",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3068": {
+    "name": "Sunfire Aegis",
+    "tags": [
+      "Health",
+      "Armor",
+      "Aura",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3070": {
+    "name": "Tear of the Goddess",
+    "tags": [
+      "Mana",
+      "ManaRegen"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3071": {
+    "name": "Black Cleaver",
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3072": {
+    "name": "Bloodthirster",
+    "tags": [
+      "Damage",
+      "LifeSteal"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3073": {
+    "name": "Experimental Hexplate",
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3074": {
+    "name": "Ravenous Hydra",
+    "tags": [
+      "Damage",
+      "LifeSteal",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3075": {
+    "name": "Thornmail",
+    "tags": [
+      "Health",
+      "Armor"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3076": {
+    "name": "Bramble Vest",
+    "tags": [
+      "Armor"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3077": {
+    "name": "Tiamat",
+    "tags": [
+      "Damage",
+      "OnHit"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3078": {
+    "name": "Trinity Force",
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "CooldownReduction",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3082": {
+    "name": "Warden's Mail",
+    "tags": [
+      "Armor"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3083": {
+    "name": "Warmog's Armor",
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3084": {
+    "name": "Heartsteel",
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3085": {
+    "name": "Runaan's Hurricane",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3086": {
+    "name": "Zeal",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3087": {
+    "name": "Statikk Shiv",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3089": {
+    "name": "Rabadon's Deathcap",
+    "tags": [
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3091": {
+    "name": "Wit's End",
+    "tags": [
+      "SpellBlock",
+      "AttackSpeed",
+      "OnHit",
+      "Tenacity"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3094": {
+    "name": "Rapid Firecannon",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3100": {
+    "name": "Lich Bane",
+    "tags": [
+      "SpellDamage",
+      "OnHit",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3102": {
+    "name": "Banshee's Veil",
+    "tags": [
+      "SpellBlock",
+      "SpellDamage"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3105": {
+    "name": "Aegis of the Legion",
+    "tags": [
+      "SpellBlock",
+      "Armor",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3107": {
+    "name": "Redemption",
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3108": {
+    "name": "Fiendish Codex",
+    "tags": [
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3109": {
+    "name": "Knight's Vow",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3110": {
+    "name": "Frozen Heart",
+    "tags": [
+      "Armor",
+      "Mana",
+      "Aura",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3111": {
+    "name": "Mercury's Treads",
+    "tags": [
+      "Boots",
+      "SpellBlock",
+      "Tenacity"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3113": {
+    "name": "Aether Wisp",
+    "tags": [
+      "NonbootsMovement",
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3114": {
+    "name": "Forbidden Idol",
+    "tags": [
+      "ManaRegen"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3115": {
+    "name": "Nashor's Tooth",
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3116": {
+    "name": "Rylai's Crystal Scepter",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Slow"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3117": {
+    "name": "Mobility Boots",
+    "tags": [
+      "Boots"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3118": {
+    "name": "Malignance",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3119": {
+    "name": "Winter's Approach",
+    "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3121": {
+    "name": "Fimbulwinter",
+    "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3123": {
+    "name": "Executioner's Calling",
+    "tags": [
+      "Damage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3124": {
+    "name": "Guinsoo's Rageblade",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "SpellDamage",
+      "OnHit"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3133": {
+    "name": "Caulfield's Warhammer",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3134": {
+    "name": "Serrated Dirk",
+    "tags": [
+      "Damage",
+      "ArmorPenetration"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3135": {
+    "name": "Void Staff",
+    "tags": [
+      "MagicPenetration",
+      "SpellDamage"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3137": {
+    "name": "Cryptbloom",
+    "tags": [
+      "SpellDamage",
+      "MagicPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3139": {
+    "name": "Mercurial Scimitar",
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "Active",
+      "NonbootsMovement",
+      "Tenacity"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3140": {
+    "name": "Quicksilver Sash",
+    "tags": [
+      "Active",
+      "SpellBlock"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3142": {
+    "name": "Youmuu's Ghostblade",
+    "tags": [
+      "Damage",
+      "Active",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3143": {
+    "name": "Randuin's Omen",
+    "tags": [
+      "Health",
+      "Armor",
+      "Active",
+      "Slow"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3144": {
+    "name": "Scout's Slingshot",
+    "tags": [
+      "AttackSpeed"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3145": {
+    "name": "Hextech Alternator",
+    "tags": [
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3147": {
+    "name": "Haunting Guise",
+    "tags": [
+      "Health",
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3152": {
+    "name": "Hextech Rocketbelt",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3153": {
+    "name": "Blade of The Ruined King",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "LifeSteal",
+      "Slow",
+      "OnHit"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3155": {
+    "name": "Hexdrinker",
+    "tags": [
+      "Damage",
+      "SpellBlock"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3156": {
+    "name": "Maw of Malmortius",
+    "tags": [
+      "SpellBlock",
+      "Damage",
+      "LifeSteal",
+      "SpellVamp",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3157": {
+    "name": "Zhonya's Hourglass",
+    "tags": [
+      "Armor",
+      "SpellDamage",
+      "Active"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3158": {
+    "name": "Ionian Boots of Lucidity",
+    "tags": [
+      "Boots",
+      "CooldownReduction"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Support Enchanter"
+    ]
+  },
+  "3161": {
+    "name": "Spear of Shojin",
+    "tags": [
+      "Health",
+      "Damage",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3165": {
+    "name": "Morellonomicon",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3170": {
+    "name": "Swiftmarch",
+    "tags": [
+      "Boots"
+    ],
+    "legendary": true,
+    "roleTags": []
+  },
+  "3171": {
+    "name": "Crimson Lucidity",
+    "tags": [
+      "CooldownReduction",
+      "Boots"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Support Enchanter"
+    ]
+  },
+  "3172": {
+    "name": "Gunmetal Greaves",
+    "tags": [
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3173": {
+    "name": "Chainlaced Crushers",
+    "tags": [
+      "SpellBlock",
+      "Boots",
+      "Tenacity",
+      "MagicResist"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3174": {
+    "name": "Armored Advance",
+    "tags": [
+      "Armor",
+      "Boots"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3175": {
+    "name": "Spellslinger's Shoes",
+    "tags": [
+      "Boots",
+      "MagicPenetration"
+    ],
+    "legendary": true,
+    "roleTags": []
+  },
+  "3176": {
+    "name": "Forever Forward",
+    "tags": [
+      "Boots"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3179": {
+    "name": "Umbral Glaive",
+    "tags": [
+      "Damage",
+      "Vision",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3181": {
+    "name": "Hullbreaker",
+    "tags": [
+      "Health",
+      "Damage",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3190": {
+    "name": "Locket of the Iron Solari",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3211": {
+    "name": "Spectre's Cowl",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellBlock"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "322065": {
+    "name": "Shurelya's Battlesong",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3222": {
+    "name": "Mikael's Blessing",
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "Tenacity",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "323002": {
+    "name": "Trailblazer",
+    "tags": [
+      "Health",
+      "Armor",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "323003": {
+    "name": "Archangel's Staff",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "323004": {
+    "name": "Manamune",
+    "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "323040": {
+    "name": "Seraph's Embrace",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "323042": {
+    "name": "Muramana",
+    "tags": [
+      "Damage",
+      "Mana",
+      "CooldownReduction",
+      "OnHit",
+      "ArmorPenetration"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "323050": {
+    "name": "Zeke's Convergence",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "323070": {
+    "name": "Tear of the Goddess",
+    "tags": [
+      "Mana",
+      "ManaRegen"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "323075": {
+    "name": "Thornmail",
+    "tags": [
+      "Health",
+      "Armor"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "323107": {
+    "name": "Redemption",
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "323109": {
+    "name": "Knight's Vow",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Armor",
+      "Aura",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "323110": {
+    "name": "Frozen Heart",
+    "tags": [
+      "Armor",
+      "Mana",
+      "Aura",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "323119": {
+    "name": "Winter's Approach",
+    "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "323121": {
+    "name": "Fimbulwinter",
+    "tags": [
+      "Health",
+      "Mana",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "323190": {
+    "name": "Locket of the Iron Solari",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Aura",
+      "Active",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "323222": {
+    "name": "Mikael's Blessing",
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "Active",
+      "CooldownReduction",
+      "Tenacity",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "323504": {
+    "name": "Ardent Censer",
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "ManaRegen",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "324005": {
+    "name": "Imperial Mandate",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "326616": {
+    "name": "Staff of Flowing Water",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "326617": {
+    "name": "Moonstone Renewer",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "326620": {
+    "name": "Echoes of Helia",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "326621": {
+    "name": "Dawncore",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "326657": {
+    "name": "Rod of Ages",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "328020": {
+    "name": "Abyssal Mask",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "CooldownReduction",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3302": {
+    "name": "Terminus",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "MagicPenetration",
+      "ArmorPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "3330": {
+    "name": "Scarecrow Effigy",
+    "tags": [
+      "Active",
+      "Jungle",
+      "Lane",
+      "Trinket",
+      "Vision"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3340": {
+    "name": "Stealth Ward",
+    "tags": [
+      "Active",
+      "Jungle",
+      "Lane",
+      "Trinket",
+      "Vision"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3363": {
+    "name": "Farsight Alteration",
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3364": {
+    "name": "Oracle Lens",
+    "tags": [
+      "Active",
+      "Trinket",
+      "Vision"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3400": {
+    "name": "Your Cut",
+    "tags": [
+      "Consumable",
+      "GoldPer"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3504": {
+    "name": "Ardent Censer",
+    "tags": [
+      "AttackSpeed",
+      "SpellDamage",
+      "ManaRegen",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3508": {
+    "name": "Essence Reaver",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ManaRegen",
+      "CooldownReduction",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "3599": {
+    "name": "Kalista's Black Spear",
+    "tags": [
+      "Consumable"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3600": {
+    "name": "Kalista's Black Spear",
+    "tags": [
+      "Consumable"
+    ],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3742": {
+    "name": "Dead Man's Plate",
+    "tags": [
+      "Health",
+      "Armor",
+      "Slow",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3748": {
+    "name": "Titanic Hydra",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Damage",
+      "OnHit"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3801": {
+    "name": "Crystalline Bracer",
+    "tags": [
+      "Health",
+      "HealthRegen"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3802": {
+    "name": "Lost Chapter",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3803": {
+    "name": "Catalyst of Aeons",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "Mana",
+      "ManaRegen"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3814": {
+    "name": "Edge of Night",
+    "tags": [
+      "Health",
+      "Damage",
+      "ArmorPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "3865": {
+    "name": "World Atlas",
+    "tags": [
+      "Health",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3866": {
+    "name": "Runic Compass",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3867": {
+    "name": "Bounty of Worlds",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "3869": {
+    "name": "Celestial Opposition",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3870": {
+    "name": "Dream Maker",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3871": {
+    "name": "Zaz'Zak's Realmspike",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3876": {
+    "name": "Solstice Sleigh",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3877": {
+    "name": "Bloodsong",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "ManaRegen",
+      "Vision",
+      "GoldPer",
+      "Lane"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "3901": {
+    "name": "<rarityLegendary>Fire at Will</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3902": {
+    "name": "<rarityLegendary>Death's Daughter</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3903": {
+    "name": "<rarityLegendary>Raise Morale</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "3916": {
+    "name": "Oblivion Orb",
+    "tags": [
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "4005": {
+    "name": "Imperial Mandate",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "4401": {
+    "name": "Force of Nature",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "4628": {
+    "name": "Horizon Focus",
+    "tags": [
+      "SpellDamage",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "4629": {
+    "name": "Cosmic Drive",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4630": {
+    "name": "Blighting Jewel",
+    "tags": [
+      "MagicPenetration",
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "4632": {
+    "name": "Verdant Barrier",
+    "tags": [
+      "SpellBlock",
+      "SpellDamage"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4633": {
+    "name": "Riftmaker",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "SpellVamp"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4635": {
+    "name": "Leeching Leer",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "SpellVamp"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4636": {
+    "name": "Night Harvester",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "NonbootsMovement",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4637": {
+    "name": "Demonic Embrace",
+    "tags": [
+      "Health",
+      "SpellDamage"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4638": {
+    "name": "Watchful Wardstone",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Vision",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4641": {
+    "name": "Stirring Wardstone",
+    "tags": [
+      "Health",
+      "Damage",
+      "SpellDamage",
+      "ManaRegen",
+      "Vision",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4642": {
+    "name": "Bandleglass Mirror",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "4643": {
+    "name": "Vigilant Wardstone",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "Vision",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "4645": {
+    "name": "Shadowflame",
+    "tags": [
+      "SpellDamage",
+      "MagicPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "4646": {
+    "name": "Stormsurge",
+    "tags": [
+      "SpellDamage",
+      "GoldPer",
+      "NonbootsMovement",
+      "MagicPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "6333": {
+    "name": "Death's Dance",
+    "tags": [
+      "Armor",
+      "Damage",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "6609": {
+    "name": "Chempunk Chainsword",
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "6610": {
+    "name": "Sundered Sky",
+    "tags": [
+      "Health",
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "6616": {
+    "name": "Staff of Flowing Water",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "6617": {
+    "name": "Moonstone Renewer",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "6620": {
+    "name": "Echoes of Helia",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "ManaRegen",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "6621": {
+    "name": "Dawncore",
+    "tags": [
+      "SpellDamage",
+      "ManaRegen"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "6631": {
+    "name": "Stridebreaker",
+    "tags": [
+      "Health",
+      "Damage",
+      "AttackSpeed",
+      "Slow"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "6653": {
+    "name": "Liandry's Torment",
+    "tags": [
+      "Health",
+      "SpellDamage"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "6655": {
+    "name": "Luden's Companion",
+    "tags": [
+      "SpellDamage",
+      "Mana",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Support Enchanter"
+    ]
+  },
+  "6657": {
+    "name": "Rod of Ages",
+    "tags": [
+      "Health",
+      "HealthRegen",
+      "SpellDamage",
+      "Mana",
+      "ManaRegen"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "6660": {
+    "name": "Bami's Cinder",
+    "tags": [
+      "Health",
+      "AbilityHaste"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "6662": {
+    "name": "Iceborn Gauntlet",
+    "tags": [
+      "Health",
+      "Armor",
+      "CooldownReduction",
+      "Slow",
+      "OnHit",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "6664": {
+    "name": "Hollow Radiance",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "HealthRegen",
+      "Aura",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "6665": {
+    "name": "Jak'Sho, The Protean",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "Armor",
+      "MagicResist"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Tank"
+    ]
+  },
+  "6670": {
+    "name": "Noonquiver",
+    "tags": [
+      "Damage",
+      "CriticalStrike"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "6672": {
+    "name": "Kraken Slayer",
+    "tags": [
+      "Damage",
+      "AttackSpeed",
+      "OnHit",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "6673": {
+    "name": "Immortal Shieldbow",
+    "tags": [
+      "Damage",
+      "CriticalStrike"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "6675": {
+    "name": "Navori Flickerblade",
+    "tags": [
+      "CriticalStrike",
+      "AttackSpeed",
+      "NonbootsMovement"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "6676": {
+    "name": "The Collector",
+    "tags": [
+      "Damage",
+      "CriticalStrike",
+      "ArmorPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "6690": {
+    "name": "Rectrix",
+    "tags": [
+      "Damage",
+      "NonbootsMovement"
+    ],
+    "legendary": false,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "6692": {
+    "name": "Eclipse",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "6693": {
+    "name": "Prowler's Claw",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "6694": {
+    "name": "Serylda's Grudge",
+    "tags": [
+      "Damage",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "6695": {
+    "name": "Serpent's Fang",
+    "tags": [
+      "Damage",
+      "ArmorPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "6696": {
+    "name": "Axiom Arc",
+    "tags": [
+      "Damage",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "6697": {
+    "name": "Hubris",
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "6698": {
+    "name": "Profane Hydra",
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "6699": {
+    "name": "Voltaic Cyclosword",
+    "tags": [
+      "Damage",
+      "Active",
+      "CooldownReduction",
+      "ArmorPenetration",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter",
+      "Support Enchanter"
+    ]
+  },
+  "6701": {
+    "name": "Opportunity",
+    "tags": [
+      "Damage",
+      "Active",
+      "NonbootsMovement",
+      "ArmorPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  "7050": {
+    "name": "Gangplank Placeholder",
+    "tags": [],
+    "legendary": false,
+    "roleTags": []
+  },
+  "8001": {
+    "name": "Anathema's Chains",
+    "tags": [
+      "Health",
+      "Active",
+      "CooldownReduction",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "8010": {
+    "name": "Bloodletter's Curse",
+    "tags": [
+      "Health",
+      "SpellDamage",
+      "CooldownReduction",
+      "MagicPenetration"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Mage",
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  },
+  "8020": {
+    "name": "Abyssal Mask",
+    "tags": [
+      "Health",
+      "SpellBlock",
+      "CooldownReduction",
+      "MagicResist",
+      "AbilityHaste"
+    ],
+    "legendary": true,
+    "roleTags": [
+      "Tank",
+      "Support Enchanter",
+      "Support Tank"
+    ]
+  }
+}
