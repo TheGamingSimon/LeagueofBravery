@@ -1,3 +1,4 @@
+# Start Watcher für Champ Select
 Add-Content -Path "E:\Schule\Berufsschule\M122\LeagueofBravery\bravery-start.log" -Value "$(Get-Date): Watcher gestartet"
 
 $lockfilePath = "E:\Valorant\Riot Games\League of Legends\lockfile"
@@ -18,6 +19,7 @@ public class TrustAllCertsPolicy : ICertificatePolicy {
 "@
 [System.Net.ServicePointManager]::CertificatePolicy = New-Object TrustAllCertsPolicy
 
+# Lese Lockfile für Port und Passwort für Local LeagueClient API Zugriff
 while ($true) {
     try {
         if (!(Test-Path $lockfilePath)) {
@@ -42,6 +44,7 @@ while ($true) {
             $phase = $json.phase
             $braveryShortcut = "E:\Schule\Berufsschule\M122\LeagueofBravery\wt.exe.lnk"
 
+            # Wenn Status = "ChampSelect" und LeagueOfBravery noch nicht gestartet, starte LeagueOfBravery WT-Shortcut
             if ($phase -eq "ChampSelect" -and -not $braveryStarted) {
                 Add-Content -Path "E:\Schule\Berufsschule\M122\LeagueofBravery\bravery-start.log" -Value "$(Get-Date): Starte LeagueOfBravery.ps1 über Windows Terminal"
     
